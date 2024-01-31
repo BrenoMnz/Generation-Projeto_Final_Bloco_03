@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import homeLogo from '../../assets/home.svg';
 
 function Home() {
@@ -10,7 +11,7 @@ function Home() {
                         <p className='text-xl'>Compre remédios e produtos de higiene aqui</p>
 
                         <div className='flex justify-around gap-4'>
-                            <button className='rounded bg-white text-blue-800 py-2 px-4'>Ver categorias</button>
+                            <Link to="/categorias" className='rounded bg-white text-blue-800 py-2 px-4'>Ver categorias</Link>
                         </div>
 
                     </div>
