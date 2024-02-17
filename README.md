@@ -1,30 +1,34 @@
-# React + TypeScript + Vite
+# PT-BR
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Site de uma farmácia
 
-Currently, two official plugins are available:
+### Conhecimentos aplicados
+* Typescript
+* HTML
+* CSS
+* CRUD
+* React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Objetivo
+Criar um site para uma farmácia com requisições HTTP no banco de dados que façam o CRUD de produto e categoria de produto.
 
-## Expanding the ESLint configuration
+### Resumo
+Foi criada um site para uma farmácia onde fosse possível fazer o CRUD das models produto e categoria para que simulasse um usuário cadastrando produtos e categorias em um banco de dados por uma página web.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# EN
 
-- Configure the top-level `parserOptions` property like this:
+## Drugstore Website
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Applied Skills
+* Typescript
+* HTML
+* CSS
+* CRUD
+* React
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Objective
+Create a website for a drugstore with HTTP requests to the database to perform CRUD operations on a product and it's category.
+
+### Summary
+
+The website was created for a pharmacy where it was possible to perform CRUD operations on the product and category models, simulating a user registering products and it's categories in a database through a web page.
